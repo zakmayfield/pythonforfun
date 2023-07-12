@@ -4,7 +4,7 @@ Tuple - immutable - store collections of data with ()
 """
 
 """
-List
+----- List -----
 
 Multiple assignment -- relatable to destructuring in js
 """
@@ -59,7 +59,7 @@ print(newly_sorted) # ['a', 'b', 'z']
 
 
 """
-Tuple
+----- Tuple -----
 """
 
 bugs = ('ant', 'spider', 'grasshopper')
