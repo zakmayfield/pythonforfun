@@ -1,4 +1,9 @@
 """
+Lists - mutable - store collections of data with []
+Tuple - immutable - store collections of data with ()
+"""
+
+"""
 Multiple assignment -- relatable to destructuring in js
 """
 
@@ -28,3 +33,21 @@ remove() - by value
 del fruits[0]
 fruits.remove('banana')
 print(fruits) # ['starfruit', 'kiwi']
+
+"""
+sort()
+sorted() - built in
+
+* note - you can pass kwargs to sort(), such as reverse=True
+"""
+
+letters = ['z', 'a', 'b']
+
+letters.sort()
+print(letters) # ['a', 'b', 'z']
+
+letters.sort(reverse=True)
+print(letters) # ['z', 'b', 'a']
+
+newly_sorted = sorted(letters)
+print(newly_sorted) # ['a', 'b', 'z']
