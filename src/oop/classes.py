@@ -1,4 +1,3 @@
-
 class TestClass:
     def __init__(self, param1, param2) -> None:
         self.param1 = param1
